@@ -1,0 +1,3 @@
+org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.class
+org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandlerConstants.class
+org/wso2/carbon/identity/application/authentication/handler/ciba/internal/CibaHandlerServiceComponent.class
