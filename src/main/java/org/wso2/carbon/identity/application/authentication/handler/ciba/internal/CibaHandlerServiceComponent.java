@@ -19,11 +19,14 @@ package org.wso2.carbon.identity.application.authentication.handler.ciba.interna
 
 import org.apache.commons.logging.Log;
 import org.apache.commons.logging.LogFactory;
+
 import org.osgi.service.component.ComponentContext;
-import org.osgi.service.component.annotations.*;
+import org.osgi.service.component.annotations.Activate;
+import org.osgi.service.component.annotations.Component;
+import org.osgi.service.component.annotations.Deactivate;
 import org.wso2.carbon.identity.application.authentication.framework.ApplicationAuthenticator;
 import org.wso2.carbon.identity.application.authentication.handler.ciba.CibaHandler;
-import org.wso2.carbon.user.core.service.RealmService;
+//import org.wso2.carbon.user.core.service.RealmService;
 
 @Component(
         name = "identity.application.handler.ciba.component",
@@ -33,25 +36,10 @@ public class CibaHandlerServiceComponent {
 
     private static final Log log = LogFactory.getLog(CibaHandlerServiceComponent.class);
 
-    private static RealmService realmService;
 
-    public static RealmService getRealmService() {
 
-        return realmService;
-    }
 
-    @Reference(
-            name = "realm.service",
-            service = RealmService.class,
-            cardinality = ReferenceCardinality.MANDATORY,
-            policy = ReferencePolicy.DYNAMIC,
-            unbind = "unsetRealmService"
-    )
-    protected void setRealmService(RealmService realmService) {
 
-        log.debug("Setting the Realm Service");
-        CibaHandlerServiceComponent.realmService = realmService;
-    }
 
     @Activate
     protected void activate(ComponentContext ctxt) {
@@ -60,10 +48,10 @@ public class CibaHandlerServiceComponent {
             CibaHandler cibaHandler = new CibaHandler();
             ctxt.getBundleContext().registerService(ApplicationAuthenticator.class.getName(), cibaHandler, null);
             if (log.isDebugEnabled()) {
-                log.info("IdentifierHandler bundle is activated");
+                log.info("CibaHandler bundle is activated");
             }
         } catch (Throwable e) {
-            log.error("IdentifierHandler Authenticator bundle activation Failed", e);
+            log.error("CibaHandler Authenticator bundle activation Failed", e);
         }
     }
 
@@ -73,12 +61,6 @@ public class CibaHandlerServiceComponent {
         if (log.isDebugEnabled()) {
             log.info("cibaHandler bundle is deactivated");
         }
-    }
-
-    protected void unsetRealmService(RealmService realmService) {
-
-        log.debug("UnSetting the Realm Service");
-        CibaHandlerServiceComponent.realmService = null;
     }
 
 }
