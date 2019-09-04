@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1566816628444
+Bnd-LastModified: 1567576802124
 Build-Jdk: 1.8.0_222
 Built-By: vivek
 Bundle-ManifestVersion: 2
@@ -90,14 +90,13 @@ Export-Package: org.wso2.carbon.identity.application.authentication.hand
  tity.application.authentication.framework,org.wso2.carbon.identity.appl
  ication.authentication.framework.context"
 Import-Package: javax.servlet.http;version="[2.6.0,3.0.0)",org.apache.co
- mmons.logging;version="[1.2,2.0)",net.minidev.json;version="2.3",net.mi
- nidev.json.parser;version="2.3",org.wso2.carbon.identity.application.au
- thentication.framework;version="[5.12.387,6.0.0)",org.wso2.carbon.ident
- ity.application.authentication.framework.context;version="[5.12.387,6.0
- .0)",org.wso2.carbon.identity.application.authentication.framework.mode
- l;version="[5.12.387,6.0.0)",org.osgi.framework;version="[1.7.0,3.0.0)"
- ,org.osgi.service.component;version="[1.2.0,2.0.0)",org.apache.felix.sc
- r;version="1.6.0"
+ mmons.logging;version="[1.2,2.0)",org.wso2.carbon.identity.application.
+ authentication.framework;version="[5.12.387,6.0.0)",org.wso2.carbon.ide
+ ntity.application.authentication.framework.context;version="[5.12.387,6
+ .0.0)",org.wso2.carbon.identity.application.authentication.framework.mo
+ del;version="[5.12.387,6.0.0)",org.osgi.framework;version="[1.7.0,3.0.0
+ )",org.osgi.service.component;version="[1.2.0,2.0.0)",org.apache.felix.
+ scr;version="1.6.0"
 Main-Class: /home/vivek/IdeaProjects/org.wso2.carbon.identity.applicatio
  n.authentication.handler.ciba/src/main
 Require-Capability: osgi.ee;filter:="(&(osgi.ee=JavaSE)(version=1.6))"

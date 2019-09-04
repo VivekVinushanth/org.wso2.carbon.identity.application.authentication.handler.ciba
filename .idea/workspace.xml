@@ -4,13 +4,8 @@
     <list default="true" id="adbb1323-bf50-4fbc-ac3e-45c69d0a6253" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/artifacts/org_wso2_carbon_identity_application_authentication_handler_ciba_jar.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/artifacts/org_wso2_carbon_identity_application_authentication_handler_ciba_jar.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/internal/CibaHandlerServiceComponent.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/internal/CibaHandlerServiceComponent.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/main.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/META-INF/MANIFEST.MF" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/OSGI-INF/org.wso2.carbon.identity.application.authentication.handler.ciba.internal.CibaHandlerServiceComponent.xml" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/application/authentication/handler/ciba/internal/CibaHandlerServiceComponent.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/org/wso2/carbon/identity/application/authentication/handler/ciba/internal/CibaHandlerServiceComponent.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/org.wso2.carbon.identity.application.authentication.handler.ciba-1.0-SNAPSHOT.jar" beforeDir="false" afterPath="$PROJECT_DIR$/target/org.wso2.carbon.identity.application.authentication.handler.ciba-1.0-SNAPSHOT.jar" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -27,19 +22,10 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="145">
-              <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret column="13" selection-start-column="13" selection-end-column="13" />
+            <state relative-caret-position="272">
+              <caret line="22" column="96" lean-forward="true" selection-start-line="22" selection-start-column="96" selection-end-line="22" selection-end-column="96" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -48,9 +34,63 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/ApplicationAuthenticator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="158">
+              <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/model/AuthenticatedUser.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="1134">
+              <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/step/impl/DefaultStepHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="146">
+              <caret line="267" selection-start-line="267" selection-end-line="267" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/sequence/impl/DefaultStepBasedSequenceHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="56">
+              <caret line="123" selection-start-line="123" selection-end-line="123" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/request/impl/DefaultRequestCoordinator.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-576">
+              <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/request/impl/DefaultRequestCoordinator.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="200">
+              <caret line="283" column="19" lean-forward="true" selection-start-line="283" selection-start-column="19" selection-end-line="284" selection-end-column="34" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/internal/CibaHandlerServiceComponent.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
+            <state relative-caret-position="378">
               <caret line="21" selection-start-line="21" selection-end-line="21" />
             </state>
           </provider>
@@ -99,9 +139,9 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
-        <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/internal/CibaHandlerServiceComponent.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java" />
       </list>
     </option>
   </component>
@@ -124,8 +164,8 @@
     </treeState>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="923" />
-    <option name="y" value="27" />
+    <option name="x" value="67" />
+    <option name="y" value="25" />
     <option name="width" value="848" />
     <option name="height" value="1000" />
   </component>
@@ -135,6 +175,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="CatdeaLogs" />
       <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
@@ -182,14 +223,13 @@
         </subPane>
       </pane>
       <pane id="PackagesPane" />
-      <pane id="CatdeaLogs" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../WSO2_CIBA_Proxy_Extension" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../identity-outbound-auth-email-otp" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.detected.package.tslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
@@ -215,6 +255,32 @@
       </list>
     </option>
   </component>
+  <component name="RunManager">
+    <configuration default="true" type="Remote">
+      <module name="org.wso2.carbon.identity.application.authentication.handler.ciba" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <method v="2" />
+    </configuration>
+    <configuration name="wso2is" type="Remote">
+      <module name="org.wso2.carbon.identity.application.authentication.handler.ciba" />
+      <option name="USE_SOCKET_TRANSPORT" value="true" />
+      <option name="SERVER_MODE" value="false" />
+      <option name="SHMEM_ADDRESS" />
+      <option name="HOST" value="localhost" />
+      <option name="PORT" value="5005" />
+      <option name="AUTO_RESTART" value="false" />
+      <RunnerSettings RunnerId="Debug">
+        <option name="DEBUG_PORT" value="5005" />
+        <option name="LOCAL" value="false" />
+      </RunnerSettings>
+      <method v="2" />
+    </configuration>
+  </component>
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -234,6 +300,17 @@
       <workItem from="1566803669546" duration="821000" />
       <workItem from="1566804631821" duration="6306000" />
       <workItem from="1566812537242" duration="4529000" />
+      <workItem from="1566820389054" duration="1302000" />
+      <workItem from="1566879982711" duration="706000" />
+      <workItem from="1566893038264" duration="905000" />
+      <workItem from="1566895218128" duration="1077000" />
+      <workItem from="1566968876537" duration="1198000" />
+      <workItem from="1566976038786" duration="774000" />
+      <workItem from="1567163919527" duration="1568000" />
+      <workItem from="1567222700969" duration="599000" />
+      <workItem from="1567532902695" duration="4265000" />
+      <workItem from="1567568453175" duration="5117000" />
+      <workItem from="1567574797997" duration="2524000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Commit for Authenticator.&#10;Need some modifications.">
       <created>1566376200872</created>
@@ -242,16 +319,23 @@
       <option name="project" value="LOCAL" />
       <updated>1566376200872</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="Proper OSGI bundles created.Need Refactoring.">
+      <created>1566820456821</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1566820456822</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45570000" />
+    <option name="totallyTimeSpent" value="65605000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="67" y="25" width="1853" height="1055" extended-state="6" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.1548351" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.18501957" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -260,13 +344,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32982457" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="FindBugs-IDEA" order="7" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49916154" visible="true" weight="0.23859648" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="8" sideWeight="0.49916154" visible="true" weight="0.24327485" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
       <window_info anchor="bottom" id="CheckStyle" order="10" />
       <window_info anchor="bottom" id="Event Log" order="11" sideWeight="0.50083846" side_tool="true" weight="0.33216375" />
@@ -329,11 +413,112 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Initial Commit for Authenticator.&#10;Need some modifications." />
-    <option name="LAST_COMMIT_MESSAGE" value="Initial Commit for Authenticator.&#10;Need some modifications." />
+    <MESSAGE value="Proper OSGI bundles created.Need Refactoring." />
+    <option name="LAST_COMMIT_MESSAGE" value="Proper OSGI bundles created.Need Refactoring." />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java</url>
+          <line>36</line>
+          <properties />
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java</url>
+          <line>33</line>
+          <properties />
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java</url>
+          <line>63</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java</url>
+          <line>43</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/request/impl/DefaultRequestCoordinator.class</url>
+          <line>217</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/request/impl/DefaultRequestCoordinator.java</url>
+          <line>191</line>
+          <properties />
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/request/impl/DefaultRequestCoordinator.java</url>
+          <line>280</line>
+          <properties />
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java</url>
+          <line>26</line>
+          <properties class="org.wso2.carbon.identity.application.authentication.handler.ciba.CibaHandler" method="process">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
   <component name="antWorkspaceConfiguration">
     <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
     <option name="FILTER_TARGETS" value="false" />
+  </component>
+  <component name="debuggerHistoryManager">
+    <expressions id="evaluateExpression">
+      <expression>
+        <expression-string>context.getSequenceConfig().getStepMap().get(2).getAuthenticatedUser()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>context.getSequenceConfig().getStepMap().get(1).getAuthenticatedUser()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>context.getSequenceConfig().getStepMap().get(1).getAuthenticatedAutenticator().getApplicationAuthenticator()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>context.getSequenceConfig().getStepMap().get(1).getAuthenticatedAutenticator()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>context.getSequenceConfig().getStepMap().get(1)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>context.getSequenceConfig().getStepMap().get(0)</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>context.getSequenceConfig().getStepMap()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+      <expression>
+        <expression-string>context.getSequenceConfig()</expression-string>
+        <language-id>JAVA</language-id>
+        <evaluation-mode>EXPRESSION</evaluation-mode>
+      </expression>
+    </expressions>
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/src/main/java/META-INF/MANIFEST.MF" />
@@ -352,27 +537,118 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/internal/CibaHandlerServiceComponent.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/AuthenticationFlowHandler.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        <state relative-caret-position="36">
+          <caret line="5" column="70" lean-forward="true" selection-start-line="5" selection-start-column="70" selection-end-line="5" selection-end-column="70" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/AbstractApplicationAuthenticator.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="13" selection-start-column="13" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="108">
+          <caret line="32" column="79" selection-start-line="32" selection-start-column="79" selection-end-line="32" selection-end-column="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/context/AuthenticationContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="63" column="23" lean-forward="true" selection-start-line="63" selection-start-column="23" selection-end-line="63" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/ApplicationAuthenticator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="108">
+          <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/pom.xml">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="145">
-          <caret line="43" column="43" lean-forward="true" selection-start-line="43" selection-start-column="43" selection-end-line="43" selection-end-column="43" />
+        <state relative-caret-position="463">
+          <caret line="42" column="29" selection-start-line="42" selection-start-column="29" selection-end-line="42" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/model/AuthenticatedUser.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-333">
+          <caret line="45" column="36" selection-start-line="45" selection-start-column="36" selection-end-line="45" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/step/impl/DefaultStepHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="133">
+          <caret line="221" selection-start-line="221" selection-end-line="221" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/sequence/impl/DefaultStepBasedSequenceHandler.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="205">
+          <caret line="134" selection-start-line="134" selection-end-line="134" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/model/AuthenticatedUser.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1134">
+          <caret line="89" column="36" selection-start-line="89" selection-start-column="36" selection-end-line="89" selection-end-column="36" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/internal/CibaHandlerServiceComponent.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="378">
+          <caret line="21" selection-start-line="21" selection-end-line="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/request/impl/DefaultRequestCoordinator.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-576">
+          <caret line="97" column="16" selection-start-line="97" selection-start-column="16" selection-end-line="97" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/step/impl/DefaultStepHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="146">
+          <caret line="267" selection-start-line="267" selection-end-line="267" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/sequence/impl/DefaultStepBasedSequenceHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="56">
+          <caret line="123" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/handler/request/impl/DefaultRequestCoordinator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="283" column="19" lean-forward="true" selection-start-line="283" selection-start-column="19" selection-end-line="284" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/wso2/carbon/identity/framework/org.wso2.carbon.identity.application.authentication.framework/5.12.387/org.wso2.carbon.identity.application.authentication.framework-5.12.387-sources.jar!/org/wso2/carbon/identity/application/authentication/framework/ApplicationAuthenticator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="158">
+          <caret line="33" column="17" selection-start-line="33" selection-start-column="17" selection-end-line="33" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/org/wso2/carbon/identity/application/authentication/handler/ciba/CibaHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="272">
+          <caret line="22" column="96" lean-forward="true" selection-start-line="22" selection-start-column="96" selection-end-line="22" selection-end-column="96" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
