@@ -1,3 +1,4 @@
+
 package org.wso2.carbon.identity.application.authentication.handler.ciba;
 
 /**
@@ -17,4 +18,3 @@ public abstract class CibaHandlerConstants {
     private CibaHandlerConstants() {
     }
 }
-

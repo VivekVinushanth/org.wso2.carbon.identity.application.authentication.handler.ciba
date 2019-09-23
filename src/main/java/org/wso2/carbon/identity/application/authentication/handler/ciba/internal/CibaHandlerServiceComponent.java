@@ -1,4 +1,5 @@
-package org.wso2.carbon.identity.application.authentication.handler.ciba.internal; /**
+package org.wso2.carbon.identity.application.authentication.handler.ciba.internal;
+/**
  * Copyright (c) 2018, WSO2 Inc. (http://www.wso2.org) All Rights Reserved.
  * <p>
  * WSO2 Inc. licenses this file to you under the Apache License,

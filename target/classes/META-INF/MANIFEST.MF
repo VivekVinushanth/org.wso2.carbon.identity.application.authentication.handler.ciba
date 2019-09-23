@@ -1,5 +1,5 @@
 Manifest-Version: 1.0
-Bnd-LastModified: 1567576802124
+Bnd-LastModified: 1569213555594
 Build-Jdk: 1.8.0_222
 Built-By: vivek
 Bundle-ManifestVersion: 2
@@ -88,7 +88,9 @@ Created-By: Apache Maven Bundle Plugin
 Export-Package: org.wso2.carbon.identity.application.authentication.hand
  ler.ciba;version="1.0.0";uses:="javax.servlet.http,org.wso2.carbon.iden
  tity.application.authentication.framework,org.wso2.carbon.identity.appl
- ication.authentication.framework.context"
+ ication.authentication.framework.context",org.wso2.carbon.identity.appl
+ ication.authentication.handler.ciba.internal;version="1.0.0";uses:="org
+ .osgi.service.component"
 Import-Package: javax.servlet.http;version="[2.6.0,3.0.0)",org.apache.co
  mmons.logging;version="[1.2,2.0)",org.wso2.carbon.identity.application.
  authentication.framework;version="[5.12.387,6.0.0)",org.wso2.carbon.ide

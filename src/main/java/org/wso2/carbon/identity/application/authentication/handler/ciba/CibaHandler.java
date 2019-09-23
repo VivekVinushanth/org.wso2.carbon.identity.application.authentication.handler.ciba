@@ -26,7 +26,7 @@ public class CibaHandler extends AbstractApplicationAuthenticator implements Loc
     @Override
     public AuthenticatorFlowStatus process(HttpServletRequest request,
                                            HttpServletResponse response, AuthenticationContext context) {
-       // AuthenticatedIdPData local = context.getPreviousAuthenticatedIdPs().get(BasicAuthenticatorConstants.LOCAL);
+        // AuthenticatedIdPData local = context.getPreviousAuthenticatedIdPs().get(BasicAuthenticatorConstants.LOCAL);
         if (context.isLogoutRequest()) {
             return AuthenticatorFlowStatus.SUCCESS_COMPLETED;
         } else{
@@ -36,19 +36,19 @@ public class CibaHandler extends AbstractApplicationAuthenticator implements Loc
                 JSONObject json = (JSONObject) new net.minidev.json.parser.JSONParser().parse(stateparameter);
                 String username = String.valueOf(json.get("username"));*/
 
-                AuthenticatedUser authenticatedUser = AuthenticatedUser.
-                        createLocalAuthenticatedUserFromSubjectIdentifier("admin");
+            AuthenticatedUser authenticatedUser = AuthenticatedUser.
+                    createLocalAuthenticatedUserFromSubjectIdentifier("admin");
 
             /*AuthenticatedUser authenticatedUser2 = AuthenticatedUser.
                     createFederateAuthenticatedUserFromSubjectIdentifier("admin");*/
-                context.setSubject(authenticatedUser);
-                //context.setSubject(authenticatedUser2);
-                return AuthenticatorFlowStatus.SUCCESS_COMPLETED;
+            context.setSubject(authenticatedUser);
+            //context.setSubject(authenticatedUser2);
+            return AuthenticatorFlowStatus.SUCCESS_COMPLETED;
 
-            }
+        }
 
-            //JSONObject json = ( JSONObject) new JSONParser().parse(stateparameter);
-            // JSONObject json = (JSONObject) parser.parse(stateparameter);
+        //JSONObject json = ( JSONObject) new JSONParser().parse(stateparameter);
+        // JSONObject json = (JSONObject) parser.parse(stateparameter);
 
     }
 
